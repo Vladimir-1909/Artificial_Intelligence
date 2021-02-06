@@ -1,0 +1,9 @@
+comtypes==1.1.8
+Pillow==8.1.0
+PyAudio @ file:///J:/%236%20Artificial%20Intelligence/PyAudio-0.2.11-cp39-cp39-win_amd64.whl
+pypiwin32==223
+pytesseract==0.3.7
+pyttsx3==2.90
+pywin32==300
+SpeechRecognition==3.8.1
+tesseract==0.1.3
