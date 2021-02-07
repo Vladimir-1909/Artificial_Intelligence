@@ -12,6 +12,7 @@ import time
 import secret
 import smtplib
 from translate import Translator
+import webbrowser
 
 
 engine = pyttsx3.init()
@@ -117,6 +118,14 @@ while word != 'пока':
                 send_mail(city, temp)
             elif send == "нет":
                 sayToMe("Ну ладно, как хотите")
+
+    elif compare == "открой сайт":
+        sayToMe("какой сайт вы хотите открыть")
+        sait = result()
+        if sait == "ютуб" or sait == "youtube":
+            webbrowser.open("https://youtube.com")
+        elif sait == "гугл" or sait == "google":
+            webbrowser.open("https://google.com")
 
     elif compare == "доллар в рублях":
         url = 'https://finance.rambler.ru/currencies/'
